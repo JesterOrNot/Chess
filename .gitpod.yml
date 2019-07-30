@@ -1,6 +1,5 @@
 image:
   file: .gitpod.Dockerfile
-  context: https://github.com/JesterOrNot/Chess
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
@@ -19,6 +18,12 @@ github:
     # add a label once the prebuild is ready to pull requests (defaults to false)
     addLabel: prebuilt-in-gitpod
 tasks:
-- init: yarn install
+    - init: >
+        yarn install
+    - command: >
+        pip3 install --upgrade pip \
+        pip3 install -r requirements.txt \
+    - command: >
+        ant java
 checkoutLocation: https://github.com/JesterOrNot/Chess
 workspaceLocation: /workspace/Chess
