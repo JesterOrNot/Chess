@@ -3,4 +3,5 @@ RUN apt-get install \
     apt-utils \
     python3 \
     yarn \
-    python3-pip
+    python3-pip \
+    ant \
