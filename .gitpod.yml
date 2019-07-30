@@ -1,3 +1,12 @@
 image:
   file: Dockerfile
 workspaceLocation: /worksace/Chess
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: true
+    addComment: true
+    addBadge: true
+    addLabel: prebuilt-in-gitpod

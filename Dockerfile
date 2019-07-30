@@ -6,7 +6,7 @@ RUN apt-get install \
     python3-pip \
     clang \
     nano \
-    vim \\
+    vim \
     npm \
     nodejs \
 RUN pip3 install \
