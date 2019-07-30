@@ -7,6 +7,7 @@ github:
     branches: true
     pullRequests: true
     pullRequestsFromForks: true
+    addCheck: true
     addComment: true
     addBadge: true
     addLabel: prebuilt-in-gitpod
