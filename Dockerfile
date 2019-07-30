@@ -4,4 +4,8 @@ RUN apt-get install \
     python3 \
     yarn \
     python3-pip \
-    ant \
+    clang \
+    nano \
+    vim \\
+    npm \
+    nodejs \
