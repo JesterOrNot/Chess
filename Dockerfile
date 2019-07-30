@@ -1,15 +1,7 @@
-FROM java:latest
-RUN apt-get install \
-    apt-utils \
-    python3 \
-    yarn \
-    python3-pip \
-    clang \
-    nano \
-    vim \
-    npm \
-    nodejs \
+FROM gitpod/workspace-full
+USER root
+RUN apt-get update && apt-get install -y \
+        apt-utils yarn ant python3 python3-pip python3-venv \
+    && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 RUN pip3 install \
-    setuptools \
-    googler \
-    pygame \
+        setuptools matplotlib sympy numpy
