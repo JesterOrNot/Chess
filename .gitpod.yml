@@ -1,19 +1,7 @@
 image:
   file: .gitpod.Dockerfile
-workspaceLocation: /workspace/Chess
-github:
-  prebuilds:
-    master: true
-    branches: true
-    pullRequests: true
-    pullRequestsFromForks: true
-    addCheck: true
-    addComment: true
-    addBadge: true
-    addLabel: prebuilt-in-gitpod
+  context: /workspace/Chess/README.md
 tasks:
-    - init: >
-        yarn install
-    - command: >
-        pip3 install --upgrade pip \
-        pip3 install -r requirements.txt
+- command: yarn install
+checkoutLocation: https://github.com/JesterOrNot/Chess
+workspaceLocation: /workspace/Chess
