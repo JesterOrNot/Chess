@@ -9,3 +9,7 @@ RUN apt-get install \
     vim \\
     npm \
     nodejs \
+RUN pip3 install \
+    setuptools \
+    googler \
+    pygame \
