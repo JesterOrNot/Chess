@@ -1,6 +1,6 @@
 image:
   file: .gitpod.Dockerfile
-workspaceLocation: /worksace/Chess
+workspaceLocation: /workspace/Chess
 github:
   prebuilds:
     master: true
@@ -10,3 +10,9 @@ github:
     addComment: true
     addBadge: true
     addLabel: prebuilt-in-gitpod
+tasks:
+    - init: >
+        yarn install
+    - command: >
+        pip3 install --upgrade pip \
+        pip3 install -r requirements.txt
