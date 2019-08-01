@@ -21,7 +21,6 @@ tasks:
     - init: >
         yarn install
     - command: >
-        pip3 install --upgrade pip \
         pip3 install -r requirements.txt \
 checkoutLocation: https://github.com/JesterOrNot/Chess
 workspaceLocation: /workspace/Chess
