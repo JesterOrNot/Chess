@@ -23,7 +23,5 @@ tasks:
     - command: >
         pip3 install --upgrade pip \
         pip3 install -r requirements.txt \
-    - command: >
-        ant java
 checkoutLocation: https://github.com/JesterOrNot/Chess
 workspaceLocation: /workspace/Chess
