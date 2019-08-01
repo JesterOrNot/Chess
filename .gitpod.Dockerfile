@@ -13,4 +13,3 @@ RUN \
     ca-certificates-java \
     clang \
     zsh \
-RUN pip3 install --upgrade pip
