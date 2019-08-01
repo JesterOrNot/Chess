@@ -19,13 +19,10 @@ github:
     addLabel: prebuilt-in-gitpod
 tasks:
     - command: >
-        chmod +x depend.sh && \
-            exit
-    - command: >
-        bash depend.sh && \
-            exit
-    - command: >
-        pip3 install -r requirements.txt && \
-            exit
+        yarn install &&
+        chmod +x depend.sh &&
+        bash depend.sh &&
+        pip3 install -r requirements.txt &&
+        exit
 checkoutLocation: https://github.com/JesterOrNot/Chess
 workspaceLocation: /workspace/Chess
