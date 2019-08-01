@@ -19,7 +19,7 @@ github:
     addLabel: prebuilt-in-gitpod
 tasks:
     - command: >
-        chmod +x depend.sh
+        chmod +x depend.sh \
         bash depend.sh
     - command: >
         pip3 install -r requirements.txt \
