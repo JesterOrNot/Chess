@@ -20,15 +20,15 @@ github:
 tasks:
     - command: >
         chmod +x depend.sh && \
-            exit
-            exit
+            exit && \
+                exit
     - command: >
         bash ./depend.sh && \
-            exit
-            exit
+            exit && \
+                exit
     - command: >
         pip3 install -r requirements.txt && \
-            exit
-            exit
+            exit && \
+                exit
 checkoutLocation: https://github.com/JesterOrNot/Chess
 workspaceLocation: /workspace/Chess
