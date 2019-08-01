@@ -27,5 +27,5 @@ tasks:
     - command: >
         pip3 install -r requirements.txt && \
             exit
-checkoutLocation: https://github.com/JesterOrNot/Chess.git
+checkoutLocation: https://github.com/JesterOrNot/Chess
 workspaceLocation: /workspace/Chess
