@@ -4,18 +4,18 @@ github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
     master: true
-    # enable for all branches in this repo (defaults to false)
+# enable for all branches in this repo (defaults to false)
     branches: true
-    # enable for pull requests coming from this repo (defaults to true)
+# enable for pull requests coming from this repo (defaults to true)
     pullRequests: true
-    # enable for pull requests coming from forks (defaults to false)
+# enable for pull requests coming from forks (defaults to false)
     pullRequestsFromForks: true
-    # add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
+# add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
     addComment: true
-    # add a "Review in Gitpod" button to pull requests (defaults to false)
+# add a "Review in Gitpod" button to pull requests (defaults to false)
     addBadge: true
     addCheck: true
-    # add a label once the prebuild is ready to pull requests (defaults to false)
+# add a label once the prebuild is ready to pull requests (defaults to false)
     addLabel: prebuilt-in-gitpod
 tasks:
     - command: >
@@ -32,3 +32,14 @@ tasks:
                 exit
 checkoutLocation: https://github.com/JesterOrNot/Chess
 workspaceLocation: /workspace/Chess
+vscode:
+  extensions:
+    - redhat.java@0.47.0:1+7JOWQwVz4ve3Yx6/vWdw==
+    - vscjava.vscode-java-debug@0.20.0:2XzlrnOFsFzAHrOc51/R6w==
+    - eamodio.gitlens@9.9.2:4mgTdhdGJaQTZHTMTMDPYg==
+    - ms-python.python@2019.6.24221:eSSDlQYifwrEZXcrjL0W/g==
+    - vscode-icons-team.vscode-icons@9.2.0:Ijpf7hzDdyz46hvWWPc41Q==
+    - ms-vsliveshare.vsliveshare-pack@0.3.2:0K1J2luvqWif20PhMHupAA==
+    - ms-python.anaconda-extension-pack@1.0.1:zDfOOe7FoQk40SnrhxWS5g==
+    - KevinRose.vsc-python-indent@1.4.0:pb+bIlsFJOAdUNBE31dQwQ==
+    - almenon.arepl@1.0.16:XGYMBgfBMAnJXoyFkfSzPA==
