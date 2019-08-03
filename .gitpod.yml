@@ -43,3 +43,5 @@ vscode:
     - ms-python.anaconda-extension-pack@1.0.1:zDfOOe7FoQk40SnrhxWS5g==
     - KevinRose.vsc-python-indent@1.4.0:pb+bIlsFJOAdUNBE31dQwQ==
     - almenon.arepl@1.0.16:XGYMBgfBMAnJXoyFkfSzPA==
+    - streetsidesoftware.code-spell-checker@1.7.17:k6J87NQRojNS1DjwmZSSLg==
+    - DavidAnson.vscode-markdownlint@0.29.0:BLKb9Vn6CqVXSiurVk5sTg==

@@ -16,4 +16,7 @@
     this makes a compiled version of the file that is going to be whatever the name of the java file was
     but instead of .java its .class
 ## Running ##
-    java {name of class file without file extensiom} ex main.class is java main
+    java {name of class file without file extension} ex main.class is java main
+# Python #
+# Running Code #
+    python3 ./{name of file} ex. to run new.py run python3 ./new.py
