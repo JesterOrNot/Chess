@@ -45,3 +45,7 @@ vscode:
     - almenon.arepl@1.0.16:XGYMBgfBMAnJXoyFkfSzPA==
     - streetsidesoftware.code-spell-checker@1.7.17:k6J87NQRojNS1DjwmZSSLg==
     - DavidAnson.vscode-markdownlint@0.29.0:BLKb9Vn6CqVXSiurVk5sTg==
+    - vscjava.vscode-java-pack@0.7.1:ea31zLwuaUsRabxq6oqI1w==
+    - donjayamanne.python-extension-pack@1.6.0:d2CAGx1tkZr49Mg/VZx4Hw==
+    - mgesbert.python-path@0.0.11:JKeT9N0dYesuMTRK8HkQsw==
+    - littlefoxteam.vscode-python-test-adapter@0.3.8:/OHYOvT+03UvxFOXfFt2Ew==
