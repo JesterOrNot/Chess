@@ -1,6 +1,4 @@
-1.
-2.
-3.
-4.
-5.
-6. 
+# Sean #
+## Create Glossary in Cheat Sheet ##
+# Ted #
+## Make classes for each piece
