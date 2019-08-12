@@ -6,7 +6,8 @@ import java.awt.Color;
 
 public class testApplet extends java.applet.Applet {
 
-    Font f = new Font("TimesRoman", Font.BOLD, 36);
+    public static final long serialVersionUID = 1L;
+	Font f = new Font("TimesRoman", Font.BOLD, 36);
 
     public void paint(Graphics g) {
         g.setFont(f);

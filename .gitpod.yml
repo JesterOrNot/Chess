@@ -43,9 +43,26 @@ vscode:
     - ms-python.anaconda-extension-pack@1.0.1:zDfOOe7FoQk40SnrhxWS5g==
     - KevinRose.vsc-python-indent@1.4.0:pb+bIlsFJOAdUNBE31dQwQ==
     - almenon.arepl@1.0.16:XGYMBgfBMAnJXoyFkfSzPA==
-    - streetsidesoftware.code-spell-checker@1.7.17:k6J87NQRojNS1DjwmZSSLg==
     - DavidAnson.vscode-markdownlint@0.29.0:BLKb9Vn6CqVXSiurVk5sTg==
     - vscjava.vscode-java-pack@0.7.1:ea31zLwuaUsRabxq6oqI1w==
     - donjayamanne.python-extension-pack@1.6.0:d2CAGx1tkZr49Mg/VZx4Hw==
     - mgesbert.python-path@0.0.11:JKeT9N0dYesuMTRK8HkQsw==
     - littlefoxteam.vscode-python-test-adapter@0.3.8:/OHYOvT+03UvxFOXfFt2Ew==
+    - davidrockburn.py-pack@1.2.0:mSeo52qtBjzmDMrutXyFlg==
+    - LeoJhonSong.python-extension-pack@0.1.1:s3sTtYbjRdCJgSd3Se7c2A==
+    - donjayamanne.git-extension-pack@0.1.3:SfFwfST7Hdp+r/KRulDGXA==
+    - yixian.yapep@0.0.3:lvaXr74ecbxL0wWVvKSIwQ==
+    - dongli.python-preview@0.0.4:nvty7iTDVzgjTWYf1k+/iw==
+    - tushortz.python-extended-snippets@0.0.1:29rXD9fAGGowAVB+BUS1Ww==
+    - igress.python-coding-conventions@0.0.4:smziTduPUGSQJLXnsi44qg==
+    - jeff-hykin.better-dockerfile-syntax@1.0.0:iyUO24NLuOKURAhRxmXz3A==
+    - VisualStudioExptTeam.vscodeintellicode@1.1.9:osawgVS7+7lo2813SXOJng==
+    - tht13.python@0.2.3:1RPVn9AW+lkCOD6zUWqiIw==
+    - ms-azuretools.vscode-docker@0.7.0:lYnHNvokI7NuPc2r/XuWRw==
+    - nils-ballmann.python-coding-tools@1.0.3:u+UDC4J3U1ZQqa80dt/Bew==
+    - zalo.symplex@0.0.8:ZftGU13OMy/bJDv4reqVWg==
+    - streetsidesoftware.code-spell-checker@1.7.17:k6J87NQRojNS1DjwmZSSLg==
+    - beeware.beeware@0.0.1:7Tn3+C59NuY5CpnzOh22PA==
+ports:
+    - port: 3000
+      onOpen: open-preview

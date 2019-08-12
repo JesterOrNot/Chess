@@ -18,5 +18,11 @@
 ## Running ##
     java {name of class file without file extension} ex main.class is java main
 # Python #
-# Running Code #
+## Running Code ##
     python3 ./{name of file} ex. to run new.py run python3 ./new.py
+
+# Basic Linux Stuffs #
+## Listing the contents of the current directory ##
+    ls
+## Changing directories ##
+    There are 2 ways of doing this exact paths and regular paths
