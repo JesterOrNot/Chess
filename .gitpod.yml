@@ -30,7 +30,6 @@ tasks:
         pip3 install -r requirements.txt && \
             exit && \
                 exit
-    - command: python3 app.py
 vscode:
   extensions:
     - redhat.java@0.47.0:1+7JOWQwVz4ve3Yx6/vWdw==
