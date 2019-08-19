@@ -17,6 +17,13 @@ github:
     addCheck: true
 # add a label once the prebuild is ready to pull requests (defaults to false)
     addLabel: prebuilt-in-gitpod
+ports:
+  - port: 3000
+    onOpen: open-preview
+  - port: 5000
+    onOpen: open-preview
+  - port: 3306
+    onOpen: ignore
 tasks:
     - command: >
         chmod +x depend.sh && \
@@ -70,10 +77,3 @@ vscode:
     - hbenl.vscode-test-explorer@2.14.1:IRVt8LieiXZoxG/oYJtuVQ==
     - abusaidm.html-snippets@0.2.1:7b7Vkkp6Lem9WOqKCYMq2w==
     - batisteo.vscode-django@0.19.0:GOHmg6fGCbzkKe2S73i7Ig==
-ports:
-  - port: 3000
-    onOpen: open-preview
-  - port: 5000
-    onOpen: open-preview
-  - port: 3306
-    onOpen: ignore
