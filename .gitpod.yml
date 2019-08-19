@@ -31,8 +31,6 @@ tasks:
             exit && \
                 exit
     - command: python3 app.py
-checkoutLocation: https://github.com/JesterOrNot/Chess
-workspaceLocation: /workspace/Chess
 vscode:
   extensions:
     - redhat.java@0.47.0:1+7JOWQwVz4ve3Yx6/vWdw==
