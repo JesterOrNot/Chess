@@ -75,3 +75,5 @@ ports:
     onOpen: open-preview
   - port: 5000
     onOpen: open-preview
+  - port: 3306
+    onOpen: ignore
