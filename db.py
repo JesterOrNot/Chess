@@ -14,4 +14,4 @@ mycursor.execute("""CREATE TABLE login (
     login_username VARCHAR(255) NOT NULL,
     login_password VARCHAR(255) NOT NULL
     )
-    """)
+""")
