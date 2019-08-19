@@ -1,11 +1,3 @@
 setuptools
-googler
-numpy
-scipy
-conda
-sympy
-numpy
-matplotlib
-ipython
-jupyter
+mysql-connector
 flask
