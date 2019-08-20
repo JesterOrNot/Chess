@@ -1,6 +1,12 @@
-#! /usr/bin/python3.7
+import mysql.connector
 
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  database="login"
+)
 
+mycursor = mydb.cursor()
 # The equasion is ROne = R + L(S - E)
 # E = Expected Score
 # R1 = Final Score
