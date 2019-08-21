@@ -1,7 +1,7 @@
 {
    "editor.autoSave": "on",
    "java.errors.incompleteClasspath.severity": "ignore",
-   "python.pythonPath": "bin/python3.7",
+   "python.pythonPath": "anenv/bin/python3.7",
    "python.linting.pylintEnabled": true,
    "python.linting.enabled": true
 }

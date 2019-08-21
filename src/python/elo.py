@@ -1,12 +1,3 @@
-import mysql.connector
-
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  database="login"
-)
-
-mycursor = mydb.cursor()
 # The equasion is ROne = R + L(S - E)
 # E = Expected Score
 # R1 = Final Score
@@ -17,14 +8,13 @@ mycursor = mydb.cursor()
 # rb = initial rating of the oponent
 # ra = initial rating of the player in question
 player1 = {
-    'elo': 1000
+    'elo': 2000
 }
 player2 = {
     'elo': 2000
 }
 game = {
-    'rating': 3,
-    'score': 10
+    'score': 0
 }
 def elo():
     # I am using input right now because we have not as of yet implemented a communicator so that python can get the stats from the match
@@ -32,7 +22,7 @@ def elo():
     ra = player1.get("elo")
     k = 16
     s = game.get("score")
-    r = game.get("rating")
+    r = player1.get("elo")
     e = 1/(10**((rb - ra)/400))
     par = s-e
     total = r+(k*par)
