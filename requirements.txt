@@ -1,3 +1,4 @@
 setuptools
-mysql-connector
 flask
+matplotlib
+numpy
