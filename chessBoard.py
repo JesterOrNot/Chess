@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+
 import __init__
 pieces = __init__.pieces()
 
@@ -8,12 +9,14 @@ pieces = __init__.pieces()
 def board():
     def getImage(path):
         return OffsetImage(plt.imread(path))
-
+# This gets the points and stuffs to plot the pieces
     paths = [pieces.whitePawn1.paths, pieces.whitePawn2.paths, pieces.whitePawn3.paths, pieces.whitePawn4.paths, pieces.whitePawn5.paths, pieces.whitePawn6.paths,
              pieces.whitePawn7.paths, pieces.whitePawn1.paths, pieces.whiteBishop1.paths, pieces.whiteBishop2.paths, pieces.blackBishop1.paths, pieces.blackBishop2.paths]
 
-    x = [170, 320, 440, 590, 710, 830, 980, 1100, 440, 830, 440, 830]
-    y = [960, 960, 960, 960, 960, 960, 960, 960, 1100, 1100, 180, 180]
+    x = [pieces.whitePawn1.Position.get("x"), pieces.whitePawn2.Position.get("x"), pieces.whitePawn3.Position.get("x"), pieces.whitePawn4.Position.get("x"), pieces.whitePawn5.Position.get("x"), pieces.whitePawn6.Position.get(
+        "x"), pieces.whitePawn7.Position.get("x"), pieces.whitePawn8.Position.get("x"), pieces.whiteBishop1.Position.get("x"), pieces.whiteBishop2.Position.get("x"), pieces.blackBishop1.Position.get("x"), pieces.blackBishop2.Position.get("x")]
+    y = [pieces.whitePawn1.Position.get("y"), pieces.whitePawn2.Position.get(
+        "y"), pieces.whitePawn3.Position.get("y"), pieces.whitePawn4.Position.get("y"), pieces.whitePawn5.Position.get("y"), pieces.whitePawn6.Position.get("y"), pieces.whitePawn7.Position.get("y"), pieces.whitePawn8.Position.get("y"), pieces.whiteBishop1.Position.get("y"), pieces.whiteBishop2.Position.get("y"), pieces.blackBishop1.Position.get("y"), pieces.blackBishop2.Position.get("y")]
     fig, ax = plt.subplots()
     ax.scatter(x, y)
     plt.xticks([])
