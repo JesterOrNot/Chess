@@ -53,3 +53,21 @@ class pieces:
             'x':440,
             'y':1100,
         }
+    class whiteBishop2:
+        paths="Sprites/whiteBishop.png"
+        Position={
+            'x':830,
+            'y':1100,
+        }
+    class blackBishop1:
+        paths='Sprites/blackBishop.png'
+        Position={
+            'x':440,
+            'y':180,
+        }
+    class blackBishop2:
+        paths="Sprites/blackBishop.png"
+        Position={
+            'x':830,
+            'y':180,
+        }
