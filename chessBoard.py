@@ -13,8 +13,8 @@ def board():
   y = [960,960,960,960,960,960,960,960,1100,1100,180,180]
   fig, ax = plt.subplots()
   ax.scatter(x, y)
-  # plt.xticks([])
-  # plt.yticks([])
+  plt.xticks([])
+  plt.yticks([])
   img = mpimg.imread('chessBoard.png')
   imgplot = plt.imshow(img)
   for x0, y0, path in zip(x, y,paths):
