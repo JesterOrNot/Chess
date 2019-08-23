@@ -19,9 +19,9 @@ github:
     addLabel: prebuilt-in-gitpod
 ports:
   - port: 3000
-    onOpen: open-preview
+    onOpen: ignore
   - port: 5000
-    onOpen: open-preview
+    onOpen: ignore
   - port: 3306
     onOpen: ignore
 tasks:
@@ -35,7 +35,6 @@ tasks:
                 exit
     - command: >
         pip3 install -r requirements.txt && \
-            python3 new_db.py && \
                 exit && \
                     exit
 vscode:
