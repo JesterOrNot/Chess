@@ -71,3 +71,15 @@ class pieces:
             'x':830,
             'y':180,
         }
+    class whiteRook1:
+        paths='Sprites/whiteRook.png'
+        Position={
+            'x':185,
+            'y':1088,
+        }
+    class whiteRook2:
+        paths="Sprites/whiteRook.png"
+        Position={
+            'x':1103,
+            'y':1088,
+        }
