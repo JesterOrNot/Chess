@@ -99,5 +99,11 @@ class pieces:
         paths="Sprites/whiteQueen.png"
         Position={
             'x':585,
-            'y':1088,
+            'y':1100,
+        }
+    class whiteKing:
+        paths="Sprites/whiteKing.png"
+        Position={
+            'x':704,
+            'y':1100,
         }
