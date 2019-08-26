@@ -21,7 +21,11 @@ def board():
              pieces.blackPawn1.paths,
              pieces.blackPawn2.paths,
              pieces.blackPawn3.paths,
-             pieces.blackPawn4.paths]
+             pieces.blackPawn4.paths,
+             pieces.blackPawn5.paths,
+             pieces.blackPawn6.paths,
+             pieces.blackPawn7.paths,
+             pieces.blackPawn8.paths]
 
     x = [pieces.whitePawn1.Position.get("x"), pieces.whitePawn2.Position.get("x"), pieces.whitePawn3.Position.get("x"), pieces.whitePawn4.Position.get("x"), pieces.whitePawn5.Position.get("x"), pieces.whitePawn6.Position.get(
         "x"), pieces.whitePawn7.Position.get("x"), pieces.whitePawn8.Position.get("x"), pieces.whiteBishop1.Position.get("x"), pieces.whiteBishop2.Position.get("x"), pieces.blackBishop1.Position.get("x"), pieces.blackBishop2.Position.get("x"),
@@ -34,7 +38,11 @@ def board():
         pieces.blackPawn1.Position.get("x"),
         pieces.blackPawn2.Position.get("x"),
         pieces.blackPawn3.Position.get("x"),
-        pieces.blackPawn4.Position.get("x")]
+        pieces.blackPawn4.Position.get("x"),
+        pieces.blackPawn5.Position.get("x"),
+        pieces.blackPawn6.Position.get("x"),
+        pieces.blackPawn7.Position.get("x"),
+        pieces.blackPawn8.Position.get("x")]
 
     y = [pieces.whitePawn1.Position.get("y"), pieces.whitePawn2.Position.get(
         "y"), pieces.whitePawn3.Position.get("y"), pieces.whitePawn4.Position.get("y"), pieces.whitePawn5.Position.get("y"), pieces.whitePawn6.Position.get("y"), pieces.whitePawn7.Position.get("y"), pieces.whitePawn8.Position.get("y"), pieces.whiteBishop1.Position.get("y"), pieces.whiteBishop2.Position.get("y"), pieces.blackBishop1.Position.get("y"), pieces.blackBishop2.Position.get("y"),
@@ -47,7 +55,11 @@ def board():
         pieces.blackPawn1.Position.get("y"),
         pieces.blackPawn2.Position.get("y"),
         pieces.blackPawn3.Position.get("y"),
-        pieces.blackPawn4.Position.get("y")]
+        pieces.blackPawn4.Position.get("y"),
+        pieces.blackPawn5.Position.get("y"),
+        pieces.blackPawn6.Position.get("y"),
+        pieces.blackPawn7.Position.get("y"),
+        pieces.blackPawn8.Position.get("y")]
     fig, ax = plt.subplots()
     ax.scatter(x, y)
     plt.xticks([])
