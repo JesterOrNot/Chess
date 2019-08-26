@@ -107,3 +107,33 @@ class pieces:
             'x':704,
             'y':1100,
         }
+    class blackPawn1:
+        paths='Sprites/blackPawn.png'
+        Position={
+            'x':165,
+            'y':295,
+        }
+    class blackPawn2:
+        paths='Sprites/blackPawn.png'
+        Position={
+            'x':303,
+            'y':295,
+        }
+    class blackPawn3:
+        paths="Sprites/blackPawn.png"
+        Position={
+            'x':455,
+            'y':295,
+        }
+    class blackPawn4:
+        paths='Sprites/blackPawn.png'
+        Position={
+            'x':559,
+            'y':295,
+        }
+    class blackPawn5:
+        paths="Sprites/blackPawn.png"
+        Position={
+            'x':705,
+            'y':295,
+        }
