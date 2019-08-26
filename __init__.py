@@ -174,7 +174,7 @@ class pieces:
             'y':180,
         }
     class blackKnight2:
-        paths="Sprites/blackKnight.pmg"
+        paths="Sprites/blackKnight.png"
         Position={
             'x':327,
             'y':180,
@@ -182,12 +182,12 @@ class pieces:
     class blackQueen:
         paths="Sprites/blackQueen.png"
         Position={
-            'x':704,
+            'x':585,
             'y':180.
         }
     class blackKing:
         paths="Sprites/blackKing.png"
         Position={
-            'x':585,
+            'x':704,
             'y':180,
         }
