@@ -155,3 +155,39 @@ class pieces:
             'x':1103,
             'y':295,
         }
+    class blackRook1:
+        paths="Sprites/blackRook.png"
+        Position={
+            'x':185,
+            'y':180,
+        }
+    class blackRook2:
+        paths="Sprites/blackRook.png"
+        Position={
+            'x':1103,
+            'y':180,
+        }
+    class blackKnight1:
+        paths="Sprites/blackKnight.png"
+        Position={
+            'x':966,
+            'y':180,
+        }
+    class blackKnight2:
+        paths="Sprites/blackKnight.pmg"
+        Position={
+            'x':327,
+            'y':180,
+        }
+    class blackQueen:
+        paths="Sprites/blackQueen.png"
+        Position={
+            'x':704,
+            'y':180.
+        }
+    class blackKing:
+        paths="Sprites/blackKing.png"
+        Position={
+            'x':585,
+            'y':180,
+        }
