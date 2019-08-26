@@ -83,3 +83,9 @@ class pieces:
             'x':1103,
             'y':1088,
         }
+    class whiteKnight1:
+        paths='Sprites/whiteKnight.png'
+        Position={
+            'x':966,
+            'y':1088,
+        }
