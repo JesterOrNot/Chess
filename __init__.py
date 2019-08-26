@@ -95,3 +95,9 @@ class pieces:
             'x':327,
             'y':1088,
         }
+    class whiteQueen:
+        paths="Sprites/whiteQueen.png"
+        Position={
+            'x':585,
+            'y':1088,
+        }
