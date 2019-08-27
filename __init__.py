@@ -1,3 +1,4 @@
+# Declares the piece's classes with the path to it's sprite and the default x and y coordinate to plot them at
 class pieces:
     class whitePawn1:
         paths = "Sprites/whitePawn.png"
