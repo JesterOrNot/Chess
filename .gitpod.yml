@@ -39,7 +39,6 @@ tasks:
         pip3 install -r requirements.txt && \
                 exit && \
                     exit
-    - command: bash ./code-server.sh
 vscode:
   extensions:
     - redhat.java@0.47.0:1+7JOWQwVz4ve3Yx6/vWdw==
