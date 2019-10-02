@@ -20,6 +20,7 @@ github:
 ports:
   - port: 3000
     onOpen: ignore
+  - port: 6080
   - port: 5000
     onOpen: ignore
   - port: 3306
