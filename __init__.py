@@ -1,85 +1,85 @@
 # Declares the piece's classes with the path to it's sprite and the default x and y coordinate to plot them at
-class pieces:
-    class whitePawn1:
+class Pieces:
+    class WhitePawn1:
         paths = "Sprites/whitePawn.png"
-        Position = {
+        position = {
             'x': 170,
             'y': 960,
         }
 
-    class whitePawn2:
+    class WhitePawn2:
         paths = "Sprites/whitePawn.png"
-        Position = {
+        position = {
             'x': 320,
             'y': 960,
         }
 
-    class whitePawn3:
+    class WhitePawn3:
         paths = "Sprites/whitePawn.png"
-        Position = {
+        position = {
             'x': 440,
             'y': 960,
         }
 
-    class whitePawn4:
+    class WhitePawn4:
         paths = "Sprites/whitePawn.png"
-        Position = {
+        position = {
             'x': 590,
             'y': 960,
         }
 
-    class whitePawn5:
+    class WhitePawn5:
         paths = "Sprites/whitePawn.png"
-        Position = {
+        position = {
             'x': 710,
             'y': 960,
         }
 
-    class whitePawn6:
+    class WhitePawn6:
         paths = "Sprites/whitePawn.png"
-        Position = {
+        position = {
             'x': 830,
             'y': 960,
         }
 
-    class whitePawn7:
+    class WhitePawn7:
         paths = "Sprites/whitePawn.png"
-        Position = {
+        position = {
             'x': 980,
             'y': 960,
         }
 
-    class whitePawn8:
+    class WhitePawn8:
         paths = "Sprites/whitePawn.png"
-        Position = {
+        position = {
             'x': 1100,
             'y': 960,
         }
 
-    class whiteBishop1:
+    class WhiteBishop1:
         paths = "Sprites/whiteBishop.png"
-        Position = {
+        position = {
             'x': 440,
             'y': 1100,
         }
 
-    class whiteBishop2:
+    class WhiteBishop2:
         paths = "Sprites/whiteBishop.png"
-        Position = {
+        position = {
             'x': 830,
             'y': 1100,
         }
 
-    class blackBishop1:
+    class BlackBishop1:
         paths = 'Sprites/blackBishop.png'
-        Position = {
+        position = {
             'x': 440,
             'y': 180,
         }
 
-    class blackBishop2:
+    class BlackBishop2:
         paths = "Sprites/blackBishop.png"
-        Position = {
+        position = {
             'x': 830,
             'y': 180,
         }
@@ -91,135 +91,135 @@ class pieces:
             'y': 1088,
         }
 
-    class whiteRook2:
+    class WhiteRook2:
         paths = "Sprites/whiteRook.png"
-        Position = {
+        position = {
             'x': 1103,
             'y': 1088,
         }
 
-    class whiteKnight1:
+    class WhiteKnight1:
         paths = 'Sprites/whiteKnight.png'
-        Position = {
+        position = {
             'x': 966,
             'y': 1088,
         }
 
-    class whiteKnight2:
+    class WhiteKnight2:
         paths = "Sprites/whiteKnight.png"
-        Position = {
+        position = {
             'x': 327,
             'y': 1088,
         }
 
-    class whiteQueen:
+    class WhiteQueen:
         paths = "Sprites/whiteQueen.png"
-        Position = {
+        position = {
             'x': 585,
             'y': 1100,
         }
 
-    class whiteKing:
+    class WhiteKing:
         paths = "Sprites/whiteKing.png"
-        Position = {
+        position = {
             'x': 704,
             'y': 1100,
         }
 
-    class blackPawn1:
+    class BlackPawn1:
         paths = 'Sprites/blackPawn.png'
-        Position = {
+        position = {
             'x': 165,
             'y': 295,
         }
 
-    class blackPawn2:
+    class BlackPawn2:
         paths = 'Sprites/blackPawn.png'
-        Position = {
+        position = {
             'x': 303,
             'y': 295,
         }
 
-    class blackPawn3:
+    class BlackPawn3:
         paths = "Sprites/blackPawn.png"
-        Position = {
+        position = {
             'x': 455,
             'y': 295,
         }
 
-    class blackPawn4:
+    class BlackPawn4:
         paths = 'Sprites/blackPawn.png'
-        Position = {
+        position = {
             'x': 559,
             'y': 295,
         }
 
-    class blackPawn5:
+    class BlackPawn5:
         paths = "Sprites/blackPawn.png"
-        Position = {
+        position = {
             'x': 705,
             'y': 295,
         }
 
-    class blackPawn6:
+    class BlackPawn6:
         paths = "Sprites/blackPawn.png"
-        Position = {
+        position = {
             'x': 836,
             'y': 295,
         }
 
-    class blackPawn7:
+    class BlackPawn7:
         paths = "Sprites/blackPawn.png"
-        Position = {
+        position = {
             'x': 954,
             'y': 295,
         }
 
-    class blackPawn8:
+    class BlackPawn8:
         paths = "Sprites/blackPawn.png"
-        Position = {
+        position = {
             'x': 1103,
             'y': 295,
         }
 
-    class blackRook1:
+    class BlackRook1:
         paths = "Sprites/blackRook.png"
-        Position = {
+        position = {
             'x': 185,
             'y': 180,
         }
 
-    class blackRook2:
+    class BlackRook2:
         paths = "Sprites/blackRook.png"
-        Position = {
+        position = {
             'x': 1103,
             'y': 180,
         }
 
-    class blackKnight1:
+    class BlackKnight1:
         paths = "Sprites/blackKnight.png"
-        Position = {
+        position = {
             'x': 966,
             'y': 180,
         }
 
-    class blackKnight2:
+    class BlackKnight2:
         paths = "Sprites/blackKnight.png"
-        Position = {
+        position = {
             'x': 327,
             'y': 180,
         }
 
-    class blackQueen:
+    class BlackQueen:
         paths = "Sprites/blackQueen.png"
-        Position = {
+        position = {
             'x': 585,
             'y': 180.
         }
 
-    class blackKing:
+    class BlackKing:
         paths = "Sprites/blackKing.png"
-        Position = {
+        position = {
             'x': 704,
             'y': 180,
         }
