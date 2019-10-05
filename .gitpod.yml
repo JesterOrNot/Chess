@@ -27,6 +27,8 @@ ports:
     onOpen: ignore
   - port: 8080
     onOpen: ignore
+  - port: 5900
+    onOpen: ignore
 tasks:
     - command: >
         pip3 install -r requirements.txt && \
