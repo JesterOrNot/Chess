@@ -1,11 +1,11 @@
-# The equasion is ROne = R + L(S - E)
+# The equation is ROne = R + L(S - E)
 # E = Expected Score
 # R1 = Final Score
 # ROne = initial rating
 # S = the score
 # K = Max charge(in this case 16)
 # Equ for E is 1/10^((rb-ra/400))
-# rb = initial rating of the oponent
+# rb = initial rating of the opponent
 # ra = initial rating of the player in question
 player1 = {
     'elo': 2000
