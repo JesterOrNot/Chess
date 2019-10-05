@@ -29,14 +29,6 @@ ports:
     onOpen: ignore
 tasks:
     - command: >
-        chmod +x depend.sh && \
-            exit && \
-                exit
-    - command: >
-        bash ./depend.sh && \
-            exit && \
-                exit
-    - command: >
         pip3 install -r requirements.txt && \
                 exit && \
                     exit
