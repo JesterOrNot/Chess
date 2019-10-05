@@ -42,7 +42,6 @@ tasks:
                     exit
 vscode:
   extensions:
-    - redhat.java@0.47.0:1+7JOWQwVz4ve3Yx6/vWdw==
     - vscjava.vscode-java-debug@0.20.0:2XzlrnOFsFzAHrOc51/R6w==
     - eamodio.gitlens@9.9.2:4mgTdhdGJaQTZHTMTMDPYg==
     - vscode-icons-team.vscode-icons@9.2.0:Ijpf7hzDdyz46hvWWPc41Q==
