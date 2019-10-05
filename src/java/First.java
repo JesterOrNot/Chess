@@ -4,8 +4,10 @@ package java;
 import java.applet.Applet;
 import java.awt.Graphics;
 
-public static class First extends Applet {
-    public void paint(Graphics g) {
+public class First extends Applet {
+    private static final long serialVersionUID = 1L;
+
+	public void paint(Graphics g) {
         g.drawString("welcome to applet", 150, 150);
     }
 
