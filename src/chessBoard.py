@@ -84,9 +84,9 @@ def board():
     ### for development we show these tick marks to help visualize each square on the board
     plt.xticks([100,240,380,520,650,780,910,1040,1180])
     plt.yticks([100,240,370,500,630,760,890,1020,1150])
-    # plt.xticks([])  ## Uncomment this when in deployment
-    # plt.yticks([])  ## Uncomment this when in deployment
-    plt.grid(which='both',axis='both') # Comment this in deployment it shows the grid on the plot
+    plt.xticks([])  ## Uncomment this when in deployment
+    plt.yticks([])  ## Uncomment this when in deployment
+    # plt.grid(which='both',axis='both') # Comment this in deployment it shows the grid on the plot
     img = mpimg.imread('Sprites/chessBoard.png') ## Creates the background image in this case the chess board
     imgplot = plt.imshow(img) ## shows the board
     for x0, y0, path in zip(x, y, paths): ## Loops through the lists and uses zip to make a set for each peice containing the path to the image and it's respective x & y coordinate
