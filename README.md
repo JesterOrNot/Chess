@@ -1,7 +1,7 @@
 # Chess
 <br>
 
-## Important this is a work in progress it doesn't really work --yet
+## Important: this is a work in progress it doesn't really work --yet
 
 <br>
 
