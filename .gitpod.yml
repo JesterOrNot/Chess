@@ -30,10 +30,7 @@ ports:
   - port: 5900
     onOpen: ignore
 tasks:
-    - command: >
-        pip3 install -r requirements.txt && \
-                exit && \
-                    exit
+    - init: pip3 install -r requirements.txt
 vscode:
   extensions:
     - vscjava.vscode-java-debug@0.20.0:2XzlrnOFsFzAHrOc51/R6w==
