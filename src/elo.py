@@ -17,7 +17,7 @@ game = {
     'score': 0
 }
 def elo():
-    # I am using input right now because we have not as of yet implemented a communicator so that python can get the stats from the match
+    # We can feed input to this function
     rb = player2.get("elo")
     ra = player1.get("elo")
     k = 16
