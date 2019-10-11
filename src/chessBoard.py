@@ -32,7 +32,7 @@ def board():
              pieces.BlackKnight2.paths,
              pieces.BlackQueen.paths,
              pieces.BlackKing.paths]
-# This get's each sprites x position
+# This gets each sprites x position
     x = [pieces.WhitePawn1.Position.get("x"), pieces.WhitePawn2.Position.get("x"), pieces.WhitePawn3.Position.get("x"), pieces.WhitePawn4.Position.get("x"), pieces.WhitePawn5.Position.get("x"), pieces.WhitePawn6.Position.get(
         "x"), pieces.WhitePawn7.Position.get("x"), pieces.WhitePawn8.Position.get("x"), pieces.WhiteBishop1.Position.get("x"), pieces.WhiteBishop2.Position.get("x"), pieces.BlackBishop1.Position.get("x"), pieces.BlackBishop2.Position.get("x"),
         pieces.WhiteRook1.Position.get("x"),
@@ -89,7 +89,7 @@ def board():
     # plt.grid(which='both',axis='both') # Comment this in deployment it shows the grid on the plot
     img = mpimg.imread('Sprites/chessBoard.png') ## Creates the background image in this case the chess board
     imgplot = plt.imshow(img) ## shows the board
-    for x0, y0, path in zip(x, y, paths): ## Loops through the lists and uses zip to make a set for each peice containing the path to the image and it's respective x & y coordinate
+    for x0, y0, path in zip(x, y, paths): ## Loops through the lists and uses zip to make a set for each piece containing the path to the image and it's respective x & y coordinate
         ab = AnnotationBbox(getImage(path), (x0, y0), frameon=False) ## reads the sprites
         ax.add_artist(ab) ### Shows the sprites
     plt.savefig("theBoard/chessBoard.png") ### Displays the subplot
