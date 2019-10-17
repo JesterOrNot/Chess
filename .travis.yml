@@ -4,3 +4,4 @@ services:
   - docker
 script:
   - docker build -f .gitpod.Dockerfile .
+  - bash Control.sh
